@@ -1,0 +1,78 @@
+<!--<?php
+// $koneksi=mysqli_connect("localhost","root","","dinar");
+
+// $namalengkap=0;
+// $jeniskelamin=0;
+// $alamat=0;
+// $nomertelepon=0;
+
+// $sql_query="SELECT * FROM data_user where id=1";
+// $data_user=mysqli_query($koneksi,$sql_query);
+// $get_data = mysqli_fetch_array($data_user, MYSQLI_ASSOC);
+
+// $namalengkap = $get_data['nama_lengkap'];
+// $jeniskelamin = $get_data['jenis_kelamin'];
+// $alamat = $get_data['alamat'];
+// $nomertelepon = $get_data['no_telepon'];
+?> -->
+
+<html>
+	<head>
+		<h1  class="judul">sign up</h1>
+
+	</head>
+  
+  <body>
+  <form action="prosesdaftar.php" method="POST">
+    <input class="inputan" type="text" id="username" placeholder="Username" name="username"><br><br>
+    <input class="inputan" type="text" id="sandi" placholder="Pasword" name="sandi"><br><br>
+  	<input class="inputan" type="text" id="namalengkap" placeholder="Nama Lengkap" name="namalengkap" ><br><br>
+  	<input class="inputan" type="text" id="jeniskelamin" placeholder="Jenis Kelamin" name="jeniskelamin" ><br><br>
+  	<input class="inputan" type="text" id="alamat" placeholder="Alamat" name="alamat" ><br><br>
+  	<input class="inputan" type="number" id="nomertelepon" placeholder="No.Telpon" name="nomertelepon" ><br><br>
+    <h4 class="anak1">sudah punya akun <a href="login.html">login disini</a></h4>
+  	<input class="tombol" type="submit" value="daftar">
+  	</form>
+  </body>
+
+</html>
+
+<style>
+	html{
+		text-align :center;
+		border :20px solid black;
+		margin :15px;
+	}
+
+  .judul{
+  	 color:red;
+  }
+  .tombol{
+  	 padding:25px;
+
+  }
+  		.inputan{
+  			padding:15px;
+  		}
+
+  		.logo{
+  			width:200px;
+  		}
+
+
+</style>
+
+<script>
+	function masukkanNamaLengkap()}
+		var namaLengkap=0;
+		var jenisKelamin=0;
+		var alamat=0;
+		var nomerTelepon=0;
+		namaaLengkap=document.getElementById('namalengkap').value;
+		jenisKelamin=document.getElementById('jeniskelamin').value;
+		alamat=document.getElementById('alamat').value;
+		nomerTelepon=document.getElementById('nomertelepon').value;
+			
+
+</script>
+	

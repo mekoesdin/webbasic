@@ -1,0 +1,53 @@
+<html>
+	<head>
+		<h1 class="judul">login</h1>
+
+	</head>
+	
+ <body>
+	<form action="proseslogin2.php" method="POST">
+			 <input class="inputan" type="teks" id="username" placeholder="masukkanusername" name="username"><br><br>
+			 <input class="inputan" type="password" id="password" placeholder="masukkanpassword" name="sandi"><br><br>
+			 <h4 class="anak1">untuk mendaftar silahkan <a href="daftar.html"> daftar</a></h4>
+			 <input class="tombol" type="submit" value="login"> 
+	</form>
+ </body>
+
+</html>
+
+
+<style>
+	html{
+		text-align: center;
+		border:15px solid black;
+		margin:5px;
+	}
+
+.judul{
+	color:yellow;
+}
+.tombol{
+	padding:20px;
+	
+}
+	.inputan{
+		padding:10px;
+	}
+	.logo{
+		width:200px;
+	}
+
+
+</style> 
+
+<script>
+	 function masukkanUserName(){
+	 	var userName=0;
+	 	var password=0;
+	 	userName=document.getElementById('username').value;
+	 	password=document.getElementById('password').value;
+	 		alert("user name :"+userName);
+	 		alert("password :"+password);
+
+	 }
+</script>
